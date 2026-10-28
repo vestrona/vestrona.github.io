@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for Vestrona, a private token vesting planner for iPhone.">
+  <meta name="theme-color" content="#080807">
+  <link rel="icon" type="image/png" href="assets/vestrona-icon.png">
+  <title>Vestrona Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #080807;
+      --panel: #11110f;
+      --text: #f4f0e7;
+      --muted: #aaa397;
+      --gold: #e2bd71;
+      --gold-bright: #f0d79c;
+      --line: rgba(226, 189, 113, .18);
+      --max: 820px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 50% 0%, rgba(200,151,66,.10), transparent 32rem),
+        var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+      line-height: 1.72;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: var(--gold-bright); }
+    a:focus-visible { outline: 2px solid var(--gold-bright); outline-offset: 4px; border-radius: 5px; }
+    .wrap { width: min(calc(100% - 40px), var(--max)); margin: 0 auto; }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(8,8,7,.84);
+      border-bottom: 1px solid rgba(255,255,255,.06);
+      backdrop-filter: blur(18px);
+    }
+    nav { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .brand { display: flex; align-items: center; gap: 12px; color: var(--text); text-decoration: none; font-weight: 650; }
+    .brand img { width: 38px; height: 38px; border-radius: 10px; }
+    .back { color: var(--muted); text-decoration: none; font-size: 14px; }
+    .back:hover { color: var(--text); }
+
+    main { padding: 94px 0 108px; }
+    .eyebrow { color: var(--gold); font-size: 12px; font-weight: 700; letter-spacing: .19em; text-transform: uppercase; }
+    h1 { margin: 17px 0 19px; font-size: clamp(44px, 7vw, 72px); line-height: 1; letter-spacing: -.05em; }
+    .intro { margin: 0; color: #c7c0b4; font-size: 19px; }
+    .effective { display: inline-block; margin-top: 24px; color: var(--muted); font-size: 14px; }
+
+    .summary {
+      margin: 52px 0 64px;
+      padding: 28px 30px;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background: linear-gradient(145deg, rgba(226,189,113,.08), rgba(255,255,255,.02));
+    }
+    .summary strong { display: block; margin-bottom: 5px; color: var(--gold-bright); }
+    .summary p { margin: 0; color: #c7c0b4; }
+
+    article { counter-reset: section; }
+    section { padding: 34px 0; border-top: 1px solid rgba(255,255,255,.08); }
+    h2 { margin: 0 0 14px; font-size: 25px; line-height: 1.25; letter-spacing: -.025em; }
+    h2::before { counter-increment: section; content: counter(section, decimal-leading-zero); display: inline-block; margin-right: 9px; color: var(--gold); font-size: 13px; letter-spacing: 0; vertical-align: 3px; }
+    p, li { color: var(--muted); }
+    p { margin: 12px 0; }
+    ul { margin: 14px 0 0; padding-left: 22px; }
+    li + li { margin-top: 8px; }
+
+    .contact {
+      margin-top: 52px;
+      padding: 30px;
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 20px;
+      background: var(--panel);
+    }
+    .contact h2::before { content: none; }
+    .contact p { margin-bottom: 0; }
+
+    footer { padding: 32px 0 44px; border-top: 1px solid rgba(255,255,255,.06); color: #827d74; font-size: 13px; }
+    .footer-row { display: flex; justify-content: space-between; gap: 24px; }
+    footer a { color: #aaa397; text-decoration: none; }
+
+    @media (max-width: 600px) {
+      .wrap { width: min(calc(100% - 28px), var(--max)); }
+      nav { min-height: 64px; }
+      main { padding: 70px 0 80px; }
+      .summary { padding: 24px; margin: 40px 0 52px; }
+      .footer-row { flex-direction: column; gap: 8px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="wrap" aria-label="Primary navigation">
+      <a class="brand" href="./" aria-label="Vestrona Support home">
+        <img src="assets/vestrona-icon.png" alt="">
+        <span>Vestrona</span>
+      </a>
+      <a class="back" href="./">Support</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <div class="eyebrow">Legal &amp; Privacy</div>
+    <h1>Privacy Policy</h1>
+    <p class="intro">This Privacy Policy explains how Vestrona handles information when you use the Vestrona iPhone application.</p>
+    <span class="effective">Effective date: October 28, 2026</span>
+
+    <div class="summary">
+      <strong>The short version</strong>
+      <p>Vestrona does not collect, transmit, sell, or share your personal data. Your vesting schedules and related information remain on your device unless you choose to export or share them.</p>
+    </div>
+
+    <article>
+      <section>
+        <h2>Information We Collect</h2>
+        <p>Vestrona does not collect personal information or usage data. The app does not require an account and does not include advertising, tracking technologies, third-party analytics, or third-party crash-reporting SDKs.</p>
+      </section>
+
+      <section>
+        <h2>Information Stored on Your Device</h2>
+        <p>Information you enter—such as token names, allocation amounts, vesting dates, cliff periods, unlock frequencies, notes, and reminder settings—is stored locally on your device. Vestrona does not upload this information to a developer-operated server.</p>
+        <p>You are responsible for maintaining access to your device and for retaining any exported copies you may need. Because we do not keep server copies, we cannot remotely access, restore, or delete your local information.</p>
+      </section>
+
+      <section>
+        <h2>Notifications</h2>
+        <p>If you enable reminders, Vestrona uses Apple's local notification system to display unlock reminders on your device. Notification permission is optional and can be changed at any time in iPhone Settings.</p>
+      </section>
+
+      <section>
+        <h2>Exports and Sharing</h2>
+        <p>When you choose to export or share information, the requested file is prepared on your device and passed to the destination you select through iOS. Vestrona does not receive a copy.</p>
+        <p>If you choose a third-party destination—such as an email provider, cloud storage service, or messaging app—its handling of the shared file is governed by that service's own privacy policy.</p>
+      </section>
+
+      <section>
+        <h2>Wallets, Blockchains, and Financial Services</h2>
+        <p>Vestrona does not connect to cryptocurrency wallets, access private keys or recovery phrases, read blockchain activity, execute transactions, or retrieve token prices. It is a planning and organization tool and does not provide financial, investment, legal, or tax advice.</p>
+      </section>
+
+      <section>
+        <h2>Data Disclosure and Sale</h2>
+        <p>Because Vestrona does not collect your data, we do not sell, rent, disclose, or use personal information for advertising or profiling.</p>
+      </section>
+
+      <section>
+        <h2>Children's Privacy</h2>
+        <p>Vestrona is not directed to children under 13. We do not knowingly collect personal information from children or from any other users.</p>
+      </section>
+
+      <section>
+        <h2>Security</h2>
+        <p>Vestrona is designed to keep app information on your device. You should protect your device with an appropriate passcode and keep iOS up to date. No method of electronic storage can be guaranteed to be completely secure.</p>
+      </section>
+
+      <section>
+        <h2>Changes to This Policy</h2>
+        <p>We may update this Privacy Policy when Vestrona's features or legal obligations change. The revised policy will be posted on this page with a new effective date. If future app versions introduce data collection, the policy and the App Store privacy disclosures will be updated accordingly.</p>
+      </section>
+    </article>
+
+    <div class="contact">
+      <h2>Contact Us</h2>
+      <p>If you have questions about this Privacy Policy or Vestrona's privacy practices, email <a href="mailto:vestrona.support@gmail.com?subject=Vestrona%20Privacy">vestrona.support@gmail.com</a>.</p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap footer-row">
+      <span>© 2026 Vestrona. All rights reserved.</span>
+      <span><a href="./">Support</a></span>
+    </div>
+  </footer>
+</body>
+</html>
